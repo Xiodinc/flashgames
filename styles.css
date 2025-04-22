@@ -1,0 +1,91 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font Settings */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Navigation */
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ff9e00;
+    color: white;
+}
+
+/* Games List */
+.games-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.game-card {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.game-card h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.game-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff9e00;
+    text-decoration: none;
+}
+
+.game-card a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
