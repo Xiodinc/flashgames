@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game 2 - Flash Game Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="game-details">
+        <h2>Game 2</h2>
+        <p>Enjoy this classic Flash game! Use the controls to navigate and win.</p>
+        <object data="game2.swf" type="application/x-shockwave-flash" width="800" height="600">
+            <param name="movie" value="game2.swf">
+        </object>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Flash Game Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
